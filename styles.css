@@ -1,0 +1,55 @@
+.titleCard {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hide {
+    display: none;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.inputs {
+    border-radius: 10px;
+}
+.columnAll {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+    margin: 10%;
+    border-radius: 10px;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.DivInputs{
+    margin-top: 2%;
+}
+.divButtonEnviar {
+    display: flex;
+    justify-content: center;
+}
+.buttonEnviar{
+    margin-top: 2%;
+    width: 50%;
+    border-radius: 10px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
